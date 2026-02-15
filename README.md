@@ -20,7 +20,25 @@ The model achieves **over 99% accuracy** on the test dataset.
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
-   
+   ```
 To train the model and evaluate it on the test set, simply run the main script:
    ```bash
    python mnist_tinyvgg_classifier.py
+```
+The script will:
+
+   1. Download the MNIST dataset
+   2. Train the TinyVGG model for 10 epochs.
+   3. Display training and testing loss/accuracy metrics.
+   4. Save the trained model to the models/ directory.
+   5. Generate and save a Confusion Matrix to the results/ directory.
+
+# Results
+The model demonstrates high precision and recall across all digit classes.
+
+# Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
