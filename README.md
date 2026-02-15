@@ -10,7 +10,7 @@ The model achieves **over 99% accuracy** on the test dataset.
 - **Framework:** PyTorch.
 - **Performance:** ~99.0% Accuracy on the Test Set.
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
    ```bash
